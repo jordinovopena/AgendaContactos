@@ -9,24 +9,6 @@ public class Main {
         System.out.println("3. Buscar Contacto");
         System.out.println("4. Salir");
 
-       int opcion = sc.nextInt();
-       switch (opcion) {
-           case 1:
-               System.out.println("-Nombre: ");
-               System.out.println("-Telefono: ");
-               break;
-           case 2:
-               System.out.println("<==Contactos Guardados==>");
-               System.out.println("--No tienes ningun contacto guardado--");
-               break;
-           case 3:
-               System.out.println("--Nombre: ");
-               break;
-           case 4:
-               System.out.println("--Nos vemos JEFE!!--");
-               break;
-           default:
-               System.out.println("--Tienes que elegir un numero del 1-4");
 
 
 
